@@ -1,0 +1,9 @@
+README.md
+setup.py
+Bio_Epidemiology_NER/__init__.py
+Bio_Epidemiology_NER/bio_recognizer.py
+Bio_Epidemiology_NER.egg-info/PKG-INFO
+Bio_Epidemiology_NER.egg-info/SOURCES.txt
+Bio_Epidemiology_NER.egg-info/dependency_links.txt
+Bio_Epidemiology_NER.egg-info/requires.txt
+Bio_Epidemiology_NER.egg-info/top_level.txt

@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: Bio-Epidemiology-NER
+Version: 0.0.5
+Summary: Recognize bio-medical entities from a text corpus
+Home-page: https://github.com/dreji18/biomedicalNER
+Author: Deepak John Reji, Shaina Raza
+Author-email: deepakjohn1994@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
 Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all model to recognize bio-medical entities from a corpus or a medical report
 
 | Feature  | Output  |
@@ -16,7 +31,7 @@ pip install Bio-Epidemiology-NER
 
 ## Usage
 
-### NER with Bio-Epidemiology-NER
+### NER with Bio_Epidemiology_NER
 ```python
 # load all the functions
 from Bio_Epidemiology_NER.bio_recognizer import ner_prediction
@@ -24,7 +39,7 @@ from Bio_Epidemiology_NER.bio_recognizer import ner_prediction
 # returns the predicted class along with the probability of the actual EnvBert model
 doc = """
 	CASE: A 28-year-old previously healthy man presented with a 6-week history of palpitations. 
-      The symptoms occurred during rest, 2–3 times per week, lasted up to 30 minutes at a time 
+      The symptoms occurred during rest, 2â€“3 times per week, lasted up to 30 minutes at a time 
       and were associated with dyspnea. Except for a grade 2/6 holosystolic tricuspid regurgitation 
       murmur (best heard at the left sternal border with inspiratory accentuation), physical 
       examination yielded unremarkable findings.
