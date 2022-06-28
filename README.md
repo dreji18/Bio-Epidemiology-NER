@@ -1,4 +1,4 @@
-Bio-Epidemiology-NER is an Python library built on top of biomedical and epidemiological models to recognize bio-medical entities from a corpus or a medical report
+Bio-Epidemiology-NER is an Python library built on top of [biomedical-ner-all model](https://huggingface.co/d4data/biomedical-ner-all)  to recognize bio-medical entities from a corpus or a medical report
 
 | Feature  | Output  |
 |---|---|
