@@ -14,9 +14,11 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Bio-Epi
 pip install Bio-Epidemiology-NER
 ```
 
+This package has dependency over Pytorch, please install the required configuration from this link https://pytorch.org/get-started/locally/
+
 ## Usage
 
-### NER with Bio-Epidemiology-NER
+## NER with Bio-Epidemiology-NER
 ```python
 # load all the functions
 from Bio_Epidemiology_NER.bio_recognizer import ner_prediction
