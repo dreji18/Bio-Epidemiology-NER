@@ -1,4 +1,4 @@
-Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all model to recognize bio-medical entities from a corpus or a medical report
+Bio-Epidemiology-NER is an Python library built on top of biomedical and epidemiology texts to recognize bio-medical entities from a corpus or a medical report
 
 | Feature  | Output  |
 |---|---|
@@ -39,7 +39,7 @@ ner_prediction(corpus=doc, compute='gpu') #pass compute='cpu' if using cpu
 
 
 ## About
-This model is part of the Research topic "AI in Biomedical field" conducted by Deepak John Reji, Shaina Raza. If you use this work (code, model or dataset),
+This model is part of the Research topic "AI in Biomedical and epidemiology field" conducted by Deepak John Reji, Shaina Raza. If you use this work (code, model or dataset),
 
 Please cite us and star at: https://github.com/dreji18/biomedicalNER
 
