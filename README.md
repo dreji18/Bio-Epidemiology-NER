@@ -6,6 +6,7 @@ Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all mod
 | PDF Input | Read Pdf and tabulate the entities|
 | PDF Annotation | Annotate Entities in a medical pdf report|
 
+![ner](output/Biomedical-NER-Gif.mkv)
 
 ## Installation
 
