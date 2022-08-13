@@ -1,9 +1,6 @@
 Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all model to recognize bio-medical entities from a corpus or a medical report
 
 [![Downloads](https://static.pepy.tech/personalized-badge/bio-epidemiology-ner?period=total&units=international_system&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/bio-epidemiology-ner)
-<a href="https://pepy.tech/project/Bio-Epidemiology-NER">
-    <img alt="CI" src="https://img.shields.io/badge/pypi-v0.1.3-orange">
-</a>
 
 | Feature  | Output  |
 |---|---|
