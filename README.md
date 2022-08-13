@@ -58,10 +58,18 @@ pdf_annotate(pdffile,compute='cpu', output_format='all') #pass compute='gpu' if 
 ```
 
 
-## About
-This model is part of the Research topic "AI in Biomedical field" conducted by Deepak John Reji, Shaina Raza. If you use this work (code, model or dataset),
+## About the Model
+The model within this package is an English Named Entity Recognition model, trained on Maccrobat to recognize the bio-medical entities (84 entities) from a given text corpus (case reports etc.). This model was built on top of distilbert-base-uncased
 
+Dataset : Maccrobat https://figshare.com/articles/dataset/MACCROBAT2018/9764942
+Carbon emission : 0.0279399890043426 Kg
+Training time : 30.16527 minute
+GPU used : 1 x GeForce RTX 3060 Laptop GPU
+
+for more details regarding the entities supported, check the config file https://huggingface.co/d4data/biomedical-ner-all/blob/main/config.json
+
+## Ownership & License
+This Package is part of the Research topic "AI in Biomedical field" conducted by Deepak John Reji, Shaina Raza. If you use this work (code, model or dataset),
 Please cite us and star at: https://github.com/dreji18/biomedicalNER
 
-## License
 [MIT](https://choosealicense.com/licenses/mit/) License
