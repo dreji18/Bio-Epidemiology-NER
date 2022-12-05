@@ -1,6 +1,12 @@
 Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all model to recognize bio-medical entities from a corpus or a medical report
 
 [![Downloads](https://static.pepy.tech/personalized-badge/bio-epidemiology-ner?period=total&units=international_system&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/bio-epidemiology-ner)
+<a href="https://pypi.org/project/Bio-Epidemiology-NER/">
+    <img alt="CI" src="https://img.shields.io/badge/pypi-v0.1.3-orange">
+</a>
+<a href="https://youtu.be/rYJOpUVWszY">
+    <img alt="CI" src="https://img.shields.io/badge/Demo-Video-red">
+</a>
 
 | Feature  | Output  |
 |---|---|
@@ -8,8 +14,8 @@ Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all mod
 | PDF Input | Read Pdf and tabulate the entities|
 | PDF Annotation | Annotate Entities in a medical pdf report|
 
-## Demo
-[<img src="https://github.com/dreji18/Bio-Epidemiology-NER/blob/main/output/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=rYJOpUVWszY "Watch the video")
+## Tutorial
+[<img src="https://github.com/dreji18/Bio-Epidemiology-NER/blob/main/output/Purple%20Creative%20Livestream%20YouTube%20Thumbnail.png" width="50%">](https://www.youtube.com/watch?v=rYJOpUVWszY "Watch the video")
 
 ## Installation
 
