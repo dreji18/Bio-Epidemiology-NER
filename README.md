@@ -7,6 +7,9 @@ Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all mod
 <a href="https://youtu.be/rYJOpUVWszY">
     <img alt="CI" src="https://img.shields.io/badge/Demo-Video-red">
 </a>
+<a href="https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000152">
+    <img alt="CI" src="https://img.shields.io/badge/Research-Paper-green">
+</a>
 
 | Feature  | Output  |
 |---|---|
