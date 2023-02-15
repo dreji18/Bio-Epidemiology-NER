@@ -83,6 +83,9 @@ for more details regarding the entities supported, check the config file https:/
 
 ## Ownership & License
 This Package is part of the Research topic "AI in Biomedical field" conducted by Deepak John Reji, Shaina Raza. If you use this work (code, model or dataset),
-Please cite us and star at: https://github.com/dreji18/biomedicalNER
+
+Please cite us [**Research Paper**](https://github.com/dreji18/Bio-Epidemiology-NER/blob/main/CITATION.cff) 
+
+and star at: https://github.com/dreji18/biomedicalNER
 
 [MIT](https://choosealicense.com/licenses/mit/) License
