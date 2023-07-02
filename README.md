@@ -89,3 +89,8 @@ Please cite our [**Research Paper**](https://github.com/dreji18/Bio-Epidemiology
 and star at: https://github.com/dreji18/biomedicalNER
 
 [MIT](https://choosealicense.com/licenses/mit/) License
+
+## You can support me :)
+
+<a href="https://www.buymeacoffee.com/deepakjohnreji" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
