@@ -1,24 +1,11 @@
 Bio-Epidemiology-NER is an Python library built on top of biomedical-ner-all model to recognize bio-medical entities from a corpus or a medical report
 
-[![Downloads](https://static.pepy.tech/personalized-badge/bio-epidemiology-ner?period=total&units=international_system&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/bio-epidemiology-ner)
-<a href="https://pypi.org/project/Bio-Epidemiology-NER/">
-    <img alt="CI" src="https://img.shields.io/badge/pypi-v0.1.3-orange">
-</a>
-<a href="https://youtu.be/rYJOpUVWszY">
-    <img alt="CI" src="https://img.shields.io/badge/Demo-Video-red">
-</a>
-<a href="https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000152">
-    <img alt="CI" src="https://img.shields.io/badge/Research-Paper-green">
-</a>
-
 | Feature  | Output  |
 |---|---|
 | Named Entity Recognition | Recognize 84 bio-medical entities |
 | PDF Input | Read Pdf and tabulate the entities|
 | PDF Annotation | Annotate Entities in a medical pdf report|
 
-## Tutorial
-[<img src="https://github.com/dreji18/Bio-Epidemiology-NER/blob/main/output/thumbnail.png" width="50%">](https://youtu.be/xpiDPdBpS18 "Watch the video")
 
 ## Installation
 
@@ -68,29 +55,15 @@ pdf_annotate(pdffile,compute='cpu', output_format='csv') #pass compute='gpu' if 
 # return both annotated pdf and csv file
 pdf_annotate(pdffile,compute='cpu', output_format='all') #pass compute='gpu' if using gpu
 
+# if you come across any pdf issues, please install PyMuPDF 1.20.1 version
+
 ```
 
 
-## About the Model
-The model within this package is an English Named Entity Recognition model, trained on Maccrobat to recognize the bio-medical entities (84 entities) from a given text corpus (case reports etc.). This model was built on top of distilbert-base-uncased
+## About
+This model is part of the Research topic "AI in Biomedical field" conducted by Deepak John Reji, Shaina Raza. If you use this work (code, model or dataset),
 
-- Dataset : Maccrobat https://figshare.com/articles/dataset/MACCROBAT2018/9764942
-- Carbon emission : 0.0279399890043426 Kg
-- Training time : 30.16527 minute
-- GPU used : 1 x GeForce RTX 3060 Laptop GPU
+Please cite us and star at: https://github.com/dreji18/biomedicalNER
 
-for more details regarding the entities supported, check the config file https://huggingface.co/d4data/biomedical-ner-all/blob/main/config.json
-
-## Ownership & License
-This Package is part of the Research topic "AI in Biomedical field" conducted by Deepak John Reji, Shaina Raza. If you use this work (code, model or dataset),
-
-Please cite our [**Research Paper**](https://github.com/dreji18/Bio-Epidemiology-NER/blob/main/CITATION.cff) 
-
-and star at: https://github.com/dreji18/biomedicalNER
-
+## License
 [MIT](https://choosealicense.com/licenses/mit/) License
-
-## You can support me :)
-
-<a href="https://www.buymeacoffee.com/deepakjohnreji" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-

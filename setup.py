@@ -25,16 +25,16 @@ def readme():
 #with open("requirements-optional.txt") as f:
 #    optional_required = f.read().splitlines()
 
-base_packages = ['transformers', 'nltk', 'pandas']
+base_packages = ['transformers', 'nltk', 'pandas', 'PyMuPDF==1.20.1']
 
 setup(
     name="Bio_Epidemiology_NER",
-    version="0.0.5",
+    version="0.1.3",
     description="Recognize bio-medical entities from a text corpus",
     long_description=readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/dreji18/biomedicalNER",
-    author="Deepak John Reji, Shaina Raza",
+    author="Deepak John Reji, Shaina Raza, Femi Shajan",
     author_email="deepakjohn1994@gmail.com",
     license="MIT",
     classifiers=[
