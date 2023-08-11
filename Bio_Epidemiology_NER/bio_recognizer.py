@@ -91,13 +91,13 @@ def ner_prediction(corpus, compute):
         if len(pred_df) != 0:
             final_df = pred_df[['entity_group', 'value', 'score']]
             
-            final_df = final_df.append(disease_df) # adding the disease_df to existing
+            final_df = pd.concat([final_df, disease_df]) # adding the disease_df to existing
             
             # final_df = final_df.drop_duplicates(
             #   subset = ['entity_group', 'value'],
             #   keep = 'first')
 
-            master_df = master_df.append(final_df)
+            master_df = pd.concat([master_df, final_df])
             
             master_df = master_df.drop_duplicates(
               subset = ['entity_group', 'value'],
